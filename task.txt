@@ -1,0 +1,23 @@
+1)question
+HTTP/1.1
+=>It 3 TCP connections
+=>Ithe usest works on the textual format.
+=>It uses requests resource lnlining for use getting multiple pages
+=>It compresses data by itself 
+
+HTTP2
+=>It 1 TCP connections
+=>It works on the binary protocol
+=>It uses PUSH frame by server that collects all multiple pages
+=>It uses HPACK for data compression
+
+
+2)question
+=> A Javasript object is a collection of named values having state and behavior(properties and method).
+=>Example 
+Var <object-name>={key1:value1,key1:value1,keyN:value1N
+
+Var mycar=new object();
+mycar.make=’ford’;
+mycar.model=’mustang’;
+mycar.year=’1969’;
